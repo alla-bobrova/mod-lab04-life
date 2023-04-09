@@ -244,7 +244,7 @@ namespace cli_life
 
             if (choice == 1)
             {
-                var settings = Board.ReadSettingsFromFile("C:\\Users\\alla_\\Desktop\\mod-lab04-life-main\\mod-lab04-life-main\\Life\\settings.json");
+                var settings = Board.ReadSettingsFromFile("settings.json");
                 board = new Board(settings.Width, settings.Height, settings.CellSize, settings.LiveDensity);
             }
 
