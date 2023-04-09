@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using System.Threading;
 using ScottPlot;
 
-
 namespace cli_life
 {
     public class Cell
