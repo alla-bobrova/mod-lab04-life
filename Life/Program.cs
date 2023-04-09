@@ -5,6 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using ScottPlot;
+using Newtonsoft.Json;
+using System.Runtime.CompilerServices;
+using System.Reflection.Emit;
+using System.Text.Json;
+using System.Xml.Serialization;
+using ScottPlot.Drawing.Colormaps;
+
 
 namespace cli_life
 {
