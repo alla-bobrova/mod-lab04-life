@@ -1,12 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
-<LangVersion>7.3</LangVersion>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="figures\**" />
+    <EmbeddedResource Remove="figures\**" />
+    <None Remove="figures\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="ScottPlot" Version="4.1.62" />
   </ItemGroup>
 
 </Project>
